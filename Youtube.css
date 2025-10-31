@@ -1,0 +1,136 @@
+header {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 70px;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+.headpart1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headpart1 i {
+    font-size: 30px;
+}
+.headpart1 img {
+    width: 120px;
+    height: 60px;
+}
+.headpart2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+.input {
+    width: 550px;
+    height: 40px;
+    border: 0px;
+    border-radius: 30px;
+}
+.searchsymbol {
+    width: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+.voicesearch img {
+    width: 20px;
+    background-color: #edecec;
+    padding: 10px;
+    border-radius: 20px;
+}
+.headpart3 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.create {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #edecec;
+    border-radius: 30px;
+    height: 20px;
+    padding: 10px;
+}
+.plus i {
+    font-size: 25px;
+}
+.bell i {
+    font-size: 25px;
+}
+.mail p {
+    background-color: rgb(78, 31, 31);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    height: 20px;
+}
+main {
+    display: flex;
+    gap: 30px;
+}
+.mainpart1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 15px;
+    position: fixed;
+}
+.mainpart1 i {
+    font-size: 25px;
+}
+.mainpart1 img {
+    width: 25px;
+}
+.mainpart1 p {
+    font-size: 12px;
+}
+.mainpart2 {
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.videotypes {
+    display: flex;
+    gap: 50px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.videotypes p {
+    background-color: #edecec;
+    padding: 7px;
+    border-radius: 5px;
+}
+.videos {
+    margin-top: 80px;
+    margin-left: 50px;
+    /* position: fixed; */
+}
+.videos img {
+    width: 360px;
+    height: 220px;
+    border-radius: 10px;
+}
+.about {
+    line-height: 5px;
+}
+.line1 {
+    display: flex;
+    gap: 20px;
+}

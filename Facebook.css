@@ -1,0 +1,48 @@
+main {
+    background-color: #f2f4f7;
+    text-align: center;
+    height: 500px;
+}
+.part1 img {
+    width: 250px;
+}
+.part2 {
+    /* border: 2px solid blue; */
+    width: 400px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: 425px;
+    margin-right: 425px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.login{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form form input {
+    padding: 17px;
+    width: 330px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+.form form input::placeholder {
+    font-size: 17px;
+}
+.input2 {
+    margin: 15px;
+}
+.input3 {
+    background-color: #1877f2;
+    color: white;
+    width: 365px;
+    padding: 17px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+.forgot {
+    color: #1877f2;
+}

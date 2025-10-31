@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+}
+.header1 {
+    background-color: #09090b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.header1part1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header1part1 i {
+    font-size: 30px;
+}
+.header1part1 img {
+    width: 20px;
+}
+.header1part1 p {
+    color: red;
+    font-size: 20px;
+}
+.header1part2 {
+    width: 900px;
+    height: 15px;
+    border-radius: 40px;
+    background-color: #3f3f46;
+    border: 0px;
+    padding: 10px;
+}
+.header1part2 {
+    color: #a1a1a1;
+}
+.header1part3 {
+    display: flex;
+    gap: 10px;
+    font-size: 28px;
+}
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #09090b;
+    margin: 0px 15px;
+    border-bottom: 0.5px solid #1f1f21;
+}
+div .header2 {
+    position: sticky ;
+    top: 0;
+}
+.header2part1 p {
+    color: white;
+    /* border-bottom: 2px solid red; */
+}
+.header2part2 {
+    display: flex;
+    gap: 10px;
+}
+.header2part2 p {
+    color: #a3a3a3;
+}
+.main1 {
+    color: white;
+}
+.main2 {
+    display: flex;
+    justify-content: space-around;
+}
+.main2border {
+    border-bottom: 0.5px solid #1f1f21;
+}
+.main2 div {
+    /* border: 2px solid blue; */
+    line-height: 0.2;
+    transition: 0.5s;
+} 
+.main2 div:hover {
+    transform: scale(1.05,1.05);
+}
+.main2 img {
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+}
+.main2 h4 {
+    color: white;
+}
+.main2 p {
+    color: #a3a3a3;
+    font-size: 14px;
+}
+.footerpart1 {
+    display: flex;
+    color: white;
+    gap: 500px;
+    margin: 20px 15px;
+}
+.footerpart2 p {
+    color: white;
+    text-align: center;
+    /* font-size: 10; */
+}
+.footerpart3 {
+    background-color: #a855f7;
+    color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 0px 15px;
+    gap: 840px;
+    align-items: center;
+    height: 55px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 25px;
+}
+.fpart3part1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 0;
+    margin-left: 15px;
+}
+.fpart3part1 img {
+    width: 30px;
+}
+.fpart3part1 p {
+    font-size: 13px;
+}
+.fpart3part2 {
+    background-color: #a855f7;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    margin-right: 15px;font-weight: bold;
+    font-size: 16px;
+}

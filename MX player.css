@@ -1,0 +1,171 @@
+
+body {
+    background-color: black;
+}
+header {
+    background-color: #1a2224;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    margin-left: 2.5px;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+}
+.img1 {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.firstimg {
+    height: 40px;
+    width: 250px;
+}
+div ul li {
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+}
+.home {
+    color: dodgerblue;
+}
+.secondimg {
+    justify-content: space-between;
+    width: 200px;
+    /* border: 2px solid blue; */
+    /* gap: 25px; */
+    display: flex;
+    align-items: center;
+
+}
+.secondimg img{
+    width: 30px;
+    height: 30px;
+}
+.flex {
+    display: flex;
+    gap: 25px;
+}
+.mainimg img {
+    width: 1100px;
+    height: 300px;
+    margin: 50px;
+}
+.video {
+    margin: 0px 50px;
+}
+.Trending {
+    margin-left: 5px;
+}
+h2 {
+    color: white;
+}
+.Trending img {
+    width: 270px;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.2s;
+}
+.Trending img:hover{
+    transform: scale(1.20,1.20);
+}
+h4 {
+    font-size: 15px;
+    color: white;
+}
+.minitv-section {
+    background-color: #070d0e;
+    width: 1040px;
+    display: flex;
+    gap: 25px;
+    margin: 50px 65px;
+    padding: 30px;
+}
+.minitv-section p {
+    color: #717a7b;
+    font-size: 15px;
+}
+.minitvborder {
+    border-left: 2px solid dodgerblue;
+    /* padding: 10px; */
+}
+.questions {
+    background-color: #070d0e;
+    width: 1040px;
+    margin: 50px 65px;
+    padding: 30px;
+    line-height: 35px;
+}
+.questions h3 {
+    color: white;
+}
+.questions p {
+    color: white;
+    font-size: 15px;
+}
+.series {
+    background-color: #070d0e;
+    width: 1030px;
+    margin: 50px 65px;
+}
+.series1 {
+    background-color: #070d0e;
+    width: 1030px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+.series2 {
+    background-color: #070d0e;
+    width: 1030px;
+    display: flex;
+    gap: 120px;
+    padding: 35px;
+}
+.series p{
+    font-size: 15px;
+    color: #717a7b;
+}
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+.part1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.image1 {
+    width: 250px;
+    color: white;
+}
+.image2 {
+    width: 210px;
+    height: 20px;
+}
+.image3 {
+    width: 100px;
+}
+.image4 {
+    width: 100px;
+}
+.image5 {
+    width: 100px;
+}
+.part2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.part2 img {
+    width: 40px;
+}
+.ending {
+    margin: 40px;
+    display: flex;
+    color: #717a7b;
+    justify-content: space-between;
+    font-size: 10px;
+}
